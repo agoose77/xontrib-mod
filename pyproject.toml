@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Lazily access modules without importing them first."
 authors = ["Angus Hollands <goosey15@gmail.com>"]
 license = "MIT"
+packages = [
+  { include = "xontrib" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
