@@ -1,4 +1,9 @@
 # xontrib-mod
+[![pypi-badge][]][pypi] 
+
+[pypi-badge]: https://img.shields.io/pypi/v/xontrib-mod
+[pypi]: https://pypi.org/project/xontrib-mod
+
 Xonsh pushes the user towards Pythonic contructs over shell pipelines of general purpose tools (think `xargs` and friends), but these tools are generally less verbose to use. 
 Given that the shell rewards ease-of-writing over verbosity, this can make writing shell script in Python a less enjoyable experience for shell programmers.
 
